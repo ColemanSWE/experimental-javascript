@@ -18,7 +18,7 @@ const moveCursor = (x, y) => {
 }
 
 // set up a canvas 
-const setup = (canvas) => {
+const setupCanvas = (canvas) => {
     const w = window.innerWidth
     const h = window.innerHeight
     const dpi = window.devicePixelRatio
@@ -29,7 +29,7 @@ const setup = (canvas) => {
     canvas.style.height = h + "px"
 }
 
-setupCanvas(canvasTag)
+setupCanvas(canvasTag) 
 
 
 
