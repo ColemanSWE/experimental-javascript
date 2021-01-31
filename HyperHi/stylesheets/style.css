@@ -3,7 +3,7 @@
     background-position: 0 0;
   }
   100% {
-    background-position: 450px 0;
+    background-position: 450px -450px;
   }
 }
 
@@ -50,5 +50,24 @@ div.pattern {
   background-color: #d4d4d4;
   background-image: url(../public/pattern.svg);
   background-size: 450px 450px;
-  animation: bgmove 10s infinite linear;
+  animation: bgmove 5s infinite linear;
+}
+
+section.scratched-out {
+  mix-blend-mode: darken;
+}
+
+div.lineup {
+  background-color: #8f12fd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.lineup img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
